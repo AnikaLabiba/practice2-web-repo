@@ -1,0 +1,62 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+    margin:0;
+    background-image: linear-gradient(white, rgb(0, 132, 255));
+}
+
+.flexible-container{
+    display: flex;
+ }
+p{
+    font-size: 17px;
+    text-align: justify;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+.welcome-part{
+    
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+img{
+    width:300px;
+    height: 300px;
+    border-radius: 200px;
+ }
+ .about-section{
+     margin-top: 70px;
+ }
+ .about{
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 80px;
+    padding-right: 30px;
+    width: 450px;
+    height: 60;
+    border-radius: 5px;
+    
+ }
+ .experience-area{
+     margin-top: 70px;
+     margin-bottom: 70px;
+    
+ }
+ .experience{
+    text-align: center;
+     color: rgb(26, 83, 189);
+ }
+ .experience-item{
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 80px;
+    padding-right: 30px;
+    width: 400px;
+    height: 60;
+    border-radius: 5px;
+    color: darkblue;
+ }
